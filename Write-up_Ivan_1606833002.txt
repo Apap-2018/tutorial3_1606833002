@@ -1,0 +1,31 @@
+Tutorial3_IvanAbdurrahman_1606833002
+
+localhost:8080/pilot/add?id=1&licenseNumber=1234&name=Jono&flyHour=20
+Pertanyaan 1​: apakah hasilnya? Jika ​error​, tuliskan penjelasan Anda.
+Hasilnya adalah halaman add.html yang menandakan bahwa method add berhasil dijalankan.
+
+localhost:8080/pilot/add?id=1&licenseNumber=1234&name=Jono 
+Pertanyaan 2: ​apakah hasilnya? Jika ​error​, tuliskan penjelasan Anda.
+Error. Method add tidak berhasil dijalankan karena missing parameter flyHour
+
+
+localhost:8080/pilot/add?id=1&licenseNumber=1234&name=Jono&flyHour=20 localhost:8080/pilot/view?licenseNumber=1234
+Pertanyaan 3​: apakah data Pilot tersebut muncul? Jika tidak, mengapa?
+Muncul.
+
+
+Coba matikan program dan jalankan kembali serta buka
+localhost:8080/pilot/view?licenseNumber=1234
+Pertanyaan 4​: apakah data Pilot tersebut muncul? Jika tidak, mengapa?
+Tidak, karena program telah dimatikan sehingga saat dimulai dari awal databasenya masih kosong.
+
+localhost:8080/pilot/add?id=1&licenseNumber=1234&name=Jono&flyHour=20 localhost:8080/pilot/viewall
+Pertanyaan 5​: apakah data Pilot tersebut muncul?
+Muncul
+
+
+Coba tambahkan data Pilot lainnya dengan ​data ​yang berbeda, lalu buka
+localhost:8080/pilot/viewall
+Pertanyaan 6​: Apakah semua data Pilot muncul?
+Muncul
+

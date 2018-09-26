@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>Update success</title>
+	</head>
+	<body>
+		<h3 th:text="'Data pilot berhasil diubah'"></h3>
+		<h3 th:text="'Pilot dengan nomor ' + ${pilot.licenseNumber}"></h3>
+		<h3 th:text="'Sekarang memiliki fly hour: ' + ${pilot.flyHour}"></h3>
+	</body>
+</html>
